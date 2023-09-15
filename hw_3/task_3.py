@@ -3,12 +3,12 @@
 # Достаточно вернуть один допустимый вариант.
 # *Верните все возможные варианты комплектации рюкзака.
 
-items_dict = {"палатка": 20, "мешок": 5, "посуда": 3,"фонарь": 1}
-max_capacity = 27
+# items_dict = {"палатка": 20, "мешок": 5, "посуда": 3,"фонарь": 1}
+# max_capacity = 27
 
-items_to_pack = []
-for item, weight in items_dict.items():
-    if weight <= max_capacity:
-        items_to_pack.append(item)
-        max_capacity -= weight
-print(items_to_pack)
+# items_to_pack = []
+# for item, weight in items_dict.items():
+#     if weight <= max_capacity:
+#         items_to_pack.append(item)
+#         max_capacity -= weight
+# print(items_to_pack)
