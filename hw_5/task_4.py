@@ -6,6 +6,5 @@ def fibonacci(n):
         yield fib1
 
 
-
 for i in fibonacci(6):
     print(i)

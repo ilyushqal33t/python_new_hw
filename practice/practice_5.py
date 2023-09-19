@@ -68,9 +68,9 @@
 #         gen.append(i)
 # print(gen)
 # # ~~~~~~~~~~~~~~~~~~~~~~~
-gen_2 = ('FizzBuzz' if not i % 3 and not i % 5 else 'Fizz' if not i %
-         3 else 'Buzz' if not i % 5 else i for i in range(1, 101))
-print(type(gen_2))
+# gen_2 = ('FizzBuzz' if not i % 3 and not i % 5 else 'Fizz' if not i %
+#          3 else 'Buzz' if not i % 5 else i for i in range(1, 101))
+# print(*gen_2)
 
 
 # 6. ✔Выведите в консоль таблицу умножения от 2х2 до 9х10 как на школьной тетрадке.
