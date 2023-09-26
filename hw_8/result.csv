@@ -1,5 +1,5 @@
-main_dir	is_dir	is_file	size
-E:\study\python_hw\hw_8	False	True	196
-E:\study\python_hw\hw_8	False	True	365
-E:\study\python_hw\hw_8	False	True	143
-E:\study\python_hw\hw_8	False	True	1911
+name	main_dir	is_dir	is_file	size
+result.csv	E:\study\python_hw\hw_8	False	True	248
+result.json	E:\study\python_hw\hw_8	False	True	591
+result.pickle	E:\study\python_hw\hw_8	False	True	211
+task_1.py	E:\study\python_hw\hw_8	False	True	1936

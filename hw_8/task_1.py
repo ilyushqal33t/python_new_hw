@@ -23,14 +23,14 @@ def walker(path: str = os.getcwd()):
     for root, dir, file in os.walk(path):
         for name in file:
             full_path = os.path.join(root, name)
-            res.append({'main_dir': root, 'is_dir': False, 'is_file': True, 'size': os.path.getsize(full_path)})
+            res.append({'name': name, 'main_dir': root, 'is_dir': False, 'is_file': True, 'size': os.path.getsize(full_path)})
 
         for name in dir:
             full_path = os.path.join((root, name))
-            res.append(({'main_dir': root, 'is_dir': True, 'is_file': False, 'size': dir_size(full_path)}))
+            res.append(({'name': name,'main_dir': root, 'is_dir': True, 'is_file': False, 'size': dir_size(full_path)}))
 
     with open('result.json', 'w', encoding='UTF-8') as file:
-        json.dump(res, file, indent=2,ensure_ascii=False)
+        json.dump(res, file,indent=2, ensure_ascii=False)
 
     with open('result.csv', 'w') as csv_file:
         writer = csv.DictWriter(csv_file, dialect='excel-tab', fieldnames=res[0].keys())
@@ -41,3 +41,4 @@ def walker(path: str = os.getcwd()):
         pickle.dump(res, file)
 
 walker()
+# print(*os.walk(os.getcwd()))

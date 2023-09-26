@@ -1,26 +1,30 @@
 [
   {
+    "name": "result.csv",
     "main_dir": "E:\\study\\python_hw\\hw_8",
     "is_dir": false,
     "is_file": true,
-    "size": 196
+    "size": 248
   },
   {
+    "name": "result.json",
     "main_dir": "E:\\study\\python_hw\\hw_8",
     "is_dir": false,
     "is_file": true,
-    "size": 365
+    "size": 591
   },
   {
+    "name": "result.pickle",
     "main_dir": "E:\\study\\python_hw\\hw_8",
     "is_dir": false,
     "is_file": true,
-    "size": 143
+    "size": 211
   },
   {
+    "name": "task_1.py",
     "main_dir": "E:\\study\\python_hw\\hw_8",
     "is_dir": false,
     "is_file": true,
-    "size": 1911
+    "size": 1936
   }
 ]
