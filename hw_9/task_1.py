@@ -30,8 +30,10 @@ def decor_find_qdr(func: Callable):
 
 def decor_json_dump(func: Callable):
     def wrapper():
+        result = func()
         with open('result.json', 'w') as f:
-            json.dump(func(), f, indent=2)
+            json.dump(result, f, indent=2)
+        return result
 
     return wrapper
 
@@ -56,4 +58,3 @@ def generate_csv(line_count: int = 100):
 
 generate_csv(10)
 find_quadratic_equation()
-
