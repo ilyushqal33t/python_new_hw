@@ -1,0 +1,6 @@
+2023-10-25 15:10:44,684 - INFO       - Type obj: <class '__main__.File'>. File name: mylog, extension: log, is dir: False, root: E:\study\python_hw\hw_15
+2023-10-25 15:10:44,685 - INFO       - Type obj: <class '__main__.File'>. File name: task_1, extension: py, is dir: False, root: E:\study\python_hw\hw_15
+2023-10-25 15:10:44,685 - INFO       - Type obj: <class '__main__.Directory'>. File name: test_dir, is dir: True, root: E:\study\python_hw\hw_15
+2023-10-25 15:10:44,685 - INFO       - Type obj: <class '__main__.File'>. File name: test_file, extension: py, is dir: False, root: E:\study\python_hw\hw_15\test_dir
+2023-10-25 15:10:44,685 - INFO       - Type obj: <class '__main__.Directory'>. File name: another_test_dir, is dir: True, root: E:\study\python_hw\hw_15\test_dir
+2023-10-25 15:10:44,685 - INFO       - Type obj: <class '__main__.File'>. File name: another_test_file, extension: py, is dir: False, root: E:\study\python_hw\hw_15\test_dir\another_test_dir
